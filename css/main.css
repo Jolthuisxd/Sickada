@@ -315,9 +315,10 @@ h1, h2, h3 {
 header {
   align-items: center;
   background-color: #c54b3c;
-  display: block;
+  display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
+  
   padding: 1.5rem;
 }
 
@@ -429,8 +430,9 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
-  padding: 1.5rem;
+  
 }
+
 
 main{
   margin: 0 auto;
@@ -464,3 +466,48 @@ aside ul{
 
 /*Smaller view*/
 
+@media screen and (max-width:550px){
+
+  header {
+    margin-left: 0;
+    background-color: #c54b3c;
+    
+    justify-content: left;
+    margin-bottom: 1.5rem;
+    max-width: 460px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  main{
+    margin: 0 auto;
+    
+  }
+  
+  .wide-flex{
+    display: flex;
+  }
+  .title-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  main section{
+    display: unset;
+    margin: 0.5rem 0;
+    width: calc(100% / 2 - 0.5rem);
+  }
+  main section img{
+    width:100%;
+  }
+  aside{
+    margin: 1rem;
+  
+  }
+  aside ul{
+    padding: 0 1rem;
+  }
+  }
