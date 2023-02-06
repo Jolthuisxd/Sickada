@@ -315,11 +315,13 @@ h1, h2, h3 {
 header {
   align-items: center;
   background-color: #c54b3c;
-  display: flex;
+  display: block;
   justify-content: center;
   margin-bottom: 1.5rem;
   padding: 1.5rem;
 }
+
+
 
 
 main {
@@ -332,6 +334,7 @@ main section {
   border-radius: 5px;
   color:#2b2e37;
   display: flex;
+  flex: auto;
   gap: 1rem;
   margin: 2rem 0;
   padding: 1rem;
@@ -360,7 +363,17 @@ footer p {
 }
 /* Medium View */
 @media screen and (min-width:1080px){
-.wide-flex{
+
+header {
+    align-items: center;
+    background-color: #c54b3c;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+  .wide-flex{
   display: flex;
 }
 .title-container{
@@ -387,6 +400,15 @@ aside ul{
 
 /* Largest View */
 @media screen and (min-width:1090px){
+
+header {
+  align-items: center;
+  background-color: #c54b3c;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
 
 main{
   margin: 0 auto;
@@ -417,3 +439,6 @@ aside ul{
   padding: 0 1rem;
 }
 }
+
+/*Smaller view*/
+
