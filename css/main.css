@@ -376,13 +376,23 @@ footer p {
   border-radius: 10px;
   font-size: 28px;
   cursor: pointer;
-  margin-top: 2rem;
-  margin-right: 0.5rem;
+  margin-top: 1.5rem;
+  margin-right: 4.5rem;
 }
 
 .musiclist{
   flex-wrap: wrap;
   display: flex;
+  justify-content: space-between;
+  background-color: #2b2e37;
+  max-width: max-content;
+  margin: 0 4rem ;
+  padding-bottom:2rem;
+  border-radius: 5px;
+}
+
+.firstdiv{
+  text-align: center;
 }
 /* Medium View */
 @media screen and (min-width:1080px){
@@ -511,3 +521,5 @@ aside ul{
     padding: 0 1rem;
   }
   }
+
+
