@@ -263,6 +263,14 @@ textarea {
 
 /* my styles */
 
+h2.contactheader{
+  text-align: center;
+}
+
+h3.contactsubheader{
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: white;
