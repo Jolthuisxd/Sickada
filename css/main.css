@@ -361,6 +361,27 @@ footer p {
   padding: 2rem 0;
   text-align:center;
 }
+
+.firstdiv{
+  padding-left: 4rem;
+}
+
+.musicbutton{
+  background-color: #c54b3c;
+  margin-left: 4.5rem;
+  padding: 0.5rem 2rem 0.5rem;
+  color: white;
+  border: 4px; 
+  border-radius: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.musiclist{
+  flex-wrap: wrap;
+  display: flex;
+}
 /* Medium View */
 @media screen and (min-width:1080px){
 
