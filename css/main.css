@@ -466,7 +466,7 @@ aside ul{
 
 /*Smaller view*/
 
-@media screen and (max-width:550px){
+@media screen and (max-width:650px){
 
   header {
     margin-left: 0;
@@ -474,7 +474,7 @@ aside ul{
     
     justify-content: left;
     margin-bottom: 1.5rem;
-    max-width: 460px;
+    
   }
   
   nav ul {
